@@ -1,5 +1,14 @@
-
 /* Simple responsive layout */
+:root {
+  /* CSS variables that will be updated by JS from config.js */
+  --color-primary: #333333;
+  --color-accent: #007acc;
+  --color-light: #f5f5f5;
+  --color-dark: #212121;
+  --color-text: #333333;
+  --color-text-light: #ffffff;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,13 +17,13 @@
 }
 body {
   line-height: 1.6;
-  color: #333;
+  color: var(--color-text);
 }
 header {
-  background:#111;
-  color:#fff;
-  padding:1rem;
-  text-align:center;
+  background: var(--color-dark);
+  color: var(--color-text-light);
+  padding: 1rem;
+  text-align: center;
 }
 .site-nav {
   display:flex;
@@ -24,8 +33,9 @@ header {
   margin-top:0.5rem;
 }
 .site-nav a {
-  color:#fff;
-  text-decoration:none;
+  margin: 0 10px;
+  color: var(--color-text-light);
+  text-decoration: none;
   padding:0.5rem 0.75rem;
 }
 @media (max-width:600px) {
@@ -80,9 +90,9 @@ header {
 }
 
 .tab.active {
-  background-color: #333;
-  color: white;
-  border-color: #333;
+  background-color: var(--color-primary);
+  color: var(--color-text-light);
+  border-color: var(--color-primary);
 }
 
 /* Category information styling */
@@ -163,23 +173,99 @@ header {
 }
 .btn {
   display: inline-block;
-  padding: 0.75rem 1.5rem;
-  background: #111;
-  color: #fff;
+  padding: 0.8rem 1.5rem;
+  background-color: var(--color-accent);
+  color: var(--color-text-light);
   text-decoration: none;
   border-radius: 4px;
-  transition: background 0.3s;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
 }
 .btn:hover {
-  background: #444;
+  background-color: #444;
 }
 footer {
-  background:#111;
-  color:#fff;
-  text-align:center;
-  padding:1rem;
-  margin-top:2rem;
+  background: var(--color-dark);
+  color: var(--color-text-light);
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
 }
+/* Contact Form Styles */
+.contact-section {
+  margin: 2rem auto;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.contact-form {
+  flex: 1 1 500px;
+}
+
+.contact-info {
+  flex: 1 1 300px;
+  background-color: var(--color-light);
+  padding: 1.5rem;
+  border-radius: 4px;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 2px rgba(0, 122, 204, 0.2);
+}
+
+.contact-form .btn {
+  margin-top: 1rem;
+}
+
+.social-links {
+  margin-top: 1.5rem;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 1rem;
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+  }
+}
+
 /* Pricing cards */
 .pricing-cards {
   display:grid;

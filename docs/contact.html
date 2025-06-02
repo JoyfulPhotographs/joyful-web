@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact | Joyful Photography</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Site configuration file -->
+  <script src="js/config.js"></script>
 </head>
 <body>
   <header>
@@ -21,9 +23,81 @@
   </header>
 
   <main class="container">
-    <p>GitHub Pages can’t process server-side forms. Use a service like Formspree or link your email directly.</p>
-    <p>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
+    <section class="contact-section">
+      <h2>Get in Touch</h2>
+      <p>Have questions about my photography services or want to book a session? Fill out the form below and I'll get back to you as soon as possible.</p>
+      
+      <div class="contact-container">
+        <div class="contact-form">
+          <form id="contact-form" action="" method="POST">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="_replyto" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            
+            <!-- Honeypot field to prevent spam -->
+            <input type="text" name="_gotcha" style="display:none">
+            
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+        
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <p><strong>Email:</strong> <a href="mailto:hello@joyfuphoto.com">hello@joyfuphoto.com</a></p>
+          <p><strong>Phone:</strong> (123) 456-7890</p>
+          <p><strong>Location:</strong> Edinburgh, Scotland</p>
+          
+          <div class="social-links">
+            <h4>Follow Me</h4>
+            <a href="#" aria-label="Instagram">Instagram</a>
+            <a href="#" aria-label="Facebook">Facebook</a>
+            <a href="#" aria-label="Twitter">Twitter</a>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Set Formspree endpoint from config
+      const form = document.getElementById('contact-form');
+      if (form) {
+        // Set the form action URL with the Formspree ID from config
+        form.action = `https://formspree.io/f/${siteConfig.forms.contactFormId}`;
+        
+        // Optional: Add form submission handling
+        form.addEventListener('submit', function(event) {
+          // You can add custom form validation or tracking here if needed
+        });
+      }
+      
+      // Update colors from config if needed
+      const root = document.documentElement;
+      root.style.setProperty('--color-primary', siteConfig.colors.primary);
+      root.style.setProperty('--color-accent', siteConfig.colors.accent);
+      root.style.setProperty('--color-light', siteConfig.colors.light);
+      root.style.setProperty('--color-dark', siteConfig.colors.dark);
+      root.style.setProperty('--color-text', siteConfig.colors.text);
+      root.style.setProperty('--color-text-light', siteConfig.colors.textLight);
+    });
+  </script>
 
   <footer>
     &copy; 2025 Joyful Photography

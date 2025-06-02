@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home | Joyful Photography</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Site configuration file -->
+  <script src="js/config.js"></script>
 </head>
 <body>
   <header>
@@ -22,7 +24,7 @@
 
   <main>
     <section class="hero">
-      <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1600&h=900&fit=crop" alt="Stunning landscape">
+      <img src="images/sample-nature.jpg" alt="Stunning landscape" id="hero-image">
       <div class="hero-text">
         <h2>Capture Moments, Create Memories</h2>
         <p>Discover the world through my lens</p>
@@ -32,10 +34,10 @@
     <section class="container featured-work">
       <h2>Featured Work</h2>
       <div class="gallery-grid">
-        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=300&fit=crop" alt="Portrait">
-        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400&h=300&fit=crop" alt="Landscape">
-        <img src="https://images.unsplash.com/photo-1535083783855-76ae62b2914e?w=400&h=300&fit=crop" alt="Wildlife">
-        <img src="https://images.unsplash.com/photo-1519575706483-221027bfbb31?w=400&h=300&fit=crop" alt="Street">
+        <img src="images/sample-animal.jpg" alt="Portrait" id="featured-portrait">
+        <img src="images/sample-nature.jpg" alt="Landscape" id="featured-landscape">
+        <img src="images/sample-animal.jpg" alt="Wildlife" id="featured-wildlife">
+        <img src="images/sample-city.jpg" alt="Street" id="featured-street">
       </div>
     </section>
 
@@ -48,5 +50,37 @@
   <footer>
     &copy; 2025 Joyful Photography
   </footer>
+  
+  <!-- Script to apply config settings -->
+  <script>
+    // Apply config settings
+    document.addEventListener('DOMContentLoaded', () => {
+      // Set hero image
+      const heroImg = document.getElementById('hero-image');
+      if (heroImg) heroImg.src = siteConfig.homepageImages.hero;
+      
+      // Set featured images
+      const featuredImages = [
+        { id: 'featured-portrait', key: 'portrait' },
+        { id: 'featured-landscape', key: 'landscape' },
+        { id: 'featured-wildlife', key: 'wildlife' },
+        { id: 'featured-street', key: 'street' }
+      ];
+      
+      featuredImages.forEach(item => {
+        const img = document.getElementById(item.id);
+        if (img) img.src = siteConfig.homepageImages.featured[item.key];
+      });
+      
+      // Apply color scheme from config
+      const root = document.documentElement;
+      root.style.setProperty('--color-primary', siteConfig.colors.primary);
+      root.style.setProperty('--color-accent', siteConfig.colors.accent);
+      root.style.setProperty('--color-light', siteConfig.colors.light);
+      root.style.setProperty('--color-dark', siteConfig.colors.dark);
+      root.style.setProperty('--color-text', siteConfig.colors.text);
+      root.style.setProperty('--color-text-light', siteConfig.colors.textLight);
+    });
+  </script>
 </body>
 </html>
