@@ -1,27 +1,228 @@
-[
-  {
-    "src": "images/sample-nature.jpg",
-    "alt": "A serene lake surrounded by mountains",
-    "description": "Tranquil waters reflecting the morning sky."
-  },
-  {
-    "src": "images/sample-city.jpg",
-    "alt": "A bustling cityscape at night with light trails",
-    "description": "City lights painting streaks in the dark."
-  },
-  {
-    "src": "images/sample-animal.jpg",
-    "alt": "A close-up portrait of a majestic lion",
-    "description": "The king of the jungle in stunning detail."
-  },
-  {
-    "src": "images/sample-food.jpg",
-    "alt": "A vibrant flat lay of fresh fruits and vegetables",
-    "description": "Nature's bounty in a colorful arrangement."
-  },
-  {
-    "src": "images/sample-architecture.jpg",
-    "alt": "A sleek modern building with geometric lines",
-    "description": "Contemporary design and architectural precision."
-  }
-]
+{
+  "categories": [
+    {
+      "id": "ballet",
+      "name": "Ballet",
+      "description": "Elegant movements and performances from the world of ballet",
+      "images": [
+        {
+          "src": "images/sample-nature.jpg",
+          "alt": "Ballet dancers in motion",
+          "description": "Grace and precision in every movement."
+        },
+        {
+          "src": "images/sample-city.jpg",
+          "alt": "Ballet performance on stage",
+          "description": "Expressive performance under dramatic lighting."
+        },
+        {
+          "src": "images/sample-animal.jpg",
+          "alt": "Ballet choreography",
+          "description": "Synchronized dancers telling a story through movement."
+        },
+        {
+          "src": "images/sample-food.jpg",
+          "alt": "Behind the scenes at ballet",
+          "description": "The dedication and preparation behind the art."
+        },
+        {
+          "src": "images/sample-architecture.jpg",
+          "alt": "Ballet venue",
+          "description": "The beautiful theater setting for ballet performances."
+        }
+      ]
+    },
+    {
+      "id": "portraits",
+      "name": "Portraits",
+      "description": "Capturing personalities and expressions",
+      "images": [
+        {
+          "src": "images/sample-animal.jpg",
+          "alt": "Professional portrait",
+          "description": "Expressing character through thoughtful composition."
+        },
+        {
+          "src": "images/sample-nature.jpg",
+          "alt": "Environmental portrait",
+          "description": "Capturing personality in a natural setting."
+        },
+        {
+          "src": "images/sample-city.jpg",
+          "alt": "Urban portrait",
+          "description": "Modern portraiture against a city backdrop."
+        },
+        {
+          "src": "images/sample-food.jpg",
+          "alt": "Creative portrait",
+          "description": "Artistic expression through portraiture."
+        },
+        {
+          "src": "images/sample-architecture.jpg",
+          "alt": "Studio portrait",
+          "description": "Professional lighting enhances facial features."
+        }
+      ]
+    },
+    {
+      "id": "weddings",
+      "name": "Weddings",
+      "description": "Celebrating love and commitment",
+      "images": [
+        {
+          "src": "images/sample-city.jpg",
+          "alt": "Wedding celebration",
+          "description": "Capturing joy on a special day."
+        },
+        {
+          "src": "images/sample-nature.jpg",
+          "alt": "Outdoor wedding ceremony",
+          "description": "A beautiful union set in nature."
+        },
+        {
+          "src": "images/sample-food.jpg",
+          "alt": "Wedding reception details",
+          "description": "Elegant styling and personal touches."
+        },
+        {
+          "src": "images/sample-architecture.jpg",
+          "alt": "Wedding venue",
+          "description": "Historic venue with magnificent architecture."
+        },
+        {
+          "src": "images/sample-animal.jpg",
+          "alt": "Wedding couple portrait",
+          "description": "Candid moments of love and happiness."
+        }
+      ]
+    },
+    {
+      "id": "events",
+      "name": "Events",
+      "description": "Special moments from concerts, parties, and gatherings",
+      "images": [
+        {
+          "src": "images/sample-food.jpg",
+          "alt": "Event photography",
+          "description": "Documenting memorable occasions."
+        },
+        {
+          "src": "images/sample-city.jpg",
+          "alt": "Concert photography",
+          "description": "Capturing the energy of live music."
+        },
+        {
+          "src": "images/sample-architecture.jpg",
+          "alt": "Corporate event",
+          "description": "Professional coverage of business gatherings."
+        },
+        {
+          "src": "images/sample-animal.jpg",
+          "alt": "Party moments",
+          "description": "Celebration and joy in candid shots."
+        },
+        {
+          "src": "images/sample-nature.jpg",
+          "alt": "Outdoor festival",
+          "description": "Community events in beautiful settings."
+        }
+      ]
+    },
+    {
+      "id": "edinburgh",
+      "name": "Edinburgh",
+      "description": "The beauty and character of Scotland's capital",
+      "images": [
+        {
+          "src": "images/sample-architecture.jpg",
+          "alt": "Edinburgh architecture",
+          "description": "Historic charm meets modern city life."
+        },
+        {
+          "src": "images/sample-city.jpg",
+          "alt": "Edinburgh cityscape",
+          "description": "The iconic skyline of Scotland's capital."
+        },
+        {
+          "src": "images/sample-nature.jpg",
+          "alt": "Edinburgh gardens",
+          "description": "Green spaces within the urban environment."
+        },
+        {
+          "src": "images/sample-food.jpg",
+          "alt": "Edinburgh festivals",
+          "description": "Vibrant cultural events that define the city."
+        },
+        {
+          "src": "images/sample-animal.jpg",
+          "alt": "Edinburgh street scenes",
+          "description": "Daily life in Edinburgh's historic streets."
+        }
+      ]
+    },
+    {
+      "id": "landscapes",
+      "name": "Landscapes",
+      "description": "Breathtaking natural scenery from across the globe",
+      "images": [
+        {
+          "src": "images/sample-nature.jpg",
+          "alt": "A serene lake surrounded by mountains",
+          "description": "Tranquil waters reflecting the morning sky."
+        },
+        {
+          "src": "images/sample-city.jpg",
+          "alt": "Mountain range at sunset",
+          "description": "Golden hour light painting the peaks."
+        },
+        {
+          "src": "images/sample-architecture.jpg",
+          "alt": "Rocky coastline",
+          "description": "Waves crashing against dramatic cliffs."
+        },
+        {
+          "src": "images/sample-animal.jpg",
+          "alt": "Forest trail",
+          "description": "Sunlight filtering through ancient trees."
+        },
+        {
+          "src": "images/sample-food.jpg",
+          "alt": "Desert landscape",
+          "description": "Minimalist beauty of arid terrain."
+        }
+      ]
+    },
+    {
+      "id": "general",
+      "name": "General",
+      "description": "A collection of diverse photography works",
+      "images": [
+        {
+          "src": "images/sample-city.jpg",
+          "alt": "General photography sample",
+          "description": "A showcase of varied photographic styles."
+        },
+        {
+          "src": "images/sample-nature.jpg",
+          "alt": "Fine art photography",
+          "description": "Photography as artistic expression."
+        },
+        {
+          "src": "images/sample-animal.jpg",
+          "alt": "Black and white study",
+          "description": "Exploring contrast and form."
+        },
+        {
+          "src": "images/sample-food.jpg",
+          "alt": "Still life arrangement",
+          "description": "Composition and lighting techniques."
+        },
+        {
+          "src": "images/sample-architecture.jpg",
+          "alt": "Abstract photography",
+          "description": "Finding patterns and textures in everyday objects."
+        }
+      ]
+    }
+  ]
+}
