@@ -14,10 +14,12 @@ document.addEventListener('DOMContentLoaded', () => {
           galleryContainer.innerHTML = '<p>No images to display at the moment. Check back soon!</p>';
           return;
         }
+        
+        // Create gallery items from the data
         data.forEach(item => {
           const galleryItem = document.createElement('div');
-          galleryItem.classList.add('gallery-item'); // For potential styling
-
+          galleryItem.classList.add('gallery-item'); // Required for Masonry
+          
           const img = document.createElement('img');
           img.src = item.src;
           img.alt = item.alt;
@@ -29,6 +31,21 @@ document.addEventListener('DOMContentLoaded', () => {
           galleryItem.appendChild(img);
           galleryItem.appendChild(description);
           galleryContainer.appendChild(galleryItem);
+        });
+        
+        // Initialize Masonry after all images are loaded
+        // This ensures proper layout calculation based on actual image dimensions
+        const msnry = new Masonry(galleryContainer, {
+          itemSelector: '.gallery-item',
+          columnWidth: '.gallery-item',
+          percentPosition: true,
+          gutter: 10 // Space between items
+        });
+        
+        // Use imagesLoaded to recalculate layout after all images have loaded
+        imagesLoaded(galleryContainer).on('progress', () => {
+          // Layout gets refreshed each time an image loads
+          msnry.layout();
         });
       })
       .catch(error => {
