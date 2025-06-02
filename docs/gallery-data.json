@@ -1,0 +1,27 @@
+[
+  {
+    "src": "images/sample-nature.jpg",
+    "alt": "A serene lake surrounded by mountains",
+    "description": "Tranquil waters reflecting the morning sky."
+  },
+  {
+    "src": "images/sample-city.jpg",
+    "alt": "A bustling cityscape at night with light trails",
+    "description": "City lights painting streaks in the dark."
+  },
+  {
+    "src": "images/sample-animal.jpg",
+    "alt": "A close-up portrait of a majestic lion",
+    "description": "The king of the jungle in stunning detail."
+  },
+  {
+    "src": "images/sample-food.jpg",
+    "alt": "A vibrant flat lay of fresh fruits and vegetables",
+    "description": "Nature's bounty in a colorful arrangement."
+  },
+  {
+    "src": "images/sample-architecture.jpg",
+    "alt": "A sleek modern building with geometric lines",
+    "description": "Contemporary design and architectural precision."
+  }
+]

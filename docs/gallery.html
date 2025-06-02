@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gallery | Joyful Web Photography</title>
+  <title>Gallery | Joyful Photography</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,7 +14,7 @@
   <a href="index.html">Home</a>
   <a href="gallery.html">Gallery</a>
   <a href="about.html">About</a>
-  <a href="pricing.html">Pricing</a>
+  <!-- <a href="pricing.html">Pricing</a> -->
   <a href="contact.html">Contact</a>
 </nav>
 
@@ -22,18 +22,14 @@
 
   <main class="container">
     <p>Swap these placeholders with your own photos.</p>
-    <div class="gallery-grid">
-      <img src="https://source.unsplash.com/600x600/?nature" alt="Placeholder 1">
-      <img src="https://source.unsplash.com/600x600/?city" alt="Placeholder 2">
-      <img src="https://source.unsplash.com/600x600/?portrait" alt="Placeholder 3">
-      <img src="https://source.unsplash.com/600x600/?wildlife" alt="Placeholder 4">
-      <img src="https://source.unsplash.com/600x600/?street" alt="Placeholder 5">
-      <img src="https://source.unsplash.com/600x600/?wedding" alt="Placeholder 6">
+    <div id="gallery-container" class="gallery-grid">
+      <!-- Images will be loaded here by gallery.js -->
     </div>
   </main>
 
   <footer>
-    &copy; 2025 Joyful Web Photography
+    &copy; 2025 Joyful Photography
   </footer>
+  <script src="js/gallery.js"></script>
 </body>
 </html>
