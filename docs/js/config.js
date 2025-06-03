@@ -3,22 +3,32 @@
  * All shared resources like image paths and colors are defined here
  */
 const siteConfig = {
-  // Homepage images
+  // S3 configuration
+  s3: {
+    bucketUrl: 'https://photos-joyfulphotographs-com.s3.amazonaws.com',
+    prefix: 'website-images',
+    // Helper function to build full S3 URLs
+    getImageUrl: function(imagePath) {
+      return `${this.bucketUrl}/${this.prefix}/${imagePath}`;
+    }
+  },
+  
+  // Homepage images (relative paths - s3.getImageUrl will be used to construct full URLs)
   homepageImages: {
-    hero: 'images/sample-nature.jpg',
+    hero: 'website/featured-nature.jpg',
     featured: {
-      portrait: 'images/sample-animal.jpg',
-      landscape: 'images/sample-nature.jpg',
-      wildlife: 'images/sample-animal.jpg',
-      street: 'images/sample-city.jpg'
+      portrait: 'website/featured-animal.jpg',
+      landscape: 'website/featured-nature.jpg',
+      wildlife: 'website/featured-animal.jpg',
+      street: 'website/featured-city.jpg'
     }
   },
   
   // General site images (non-gallery)
   siteImages: {
-    logo: 'images/logo.jpg',
-    aboutHero: 'images/sample-architecture.jpg',
-    contactBanner: 'images/sample-city.jpg'
+    logo: 'logo.jpg',
+    aboutHero: 'website/featured-architecture.jpg',
+    contactBanner: 'website/featured-city.jpg'
   },
   
   // Color scheme

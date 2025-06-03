@@ -24,7 +24,7 @@
 
   <main>
     <section class="hero">
-      <img src="images/sample-nature.jpg" alt="Stunning landscape" id="hero-image">
+      <img src="images/website/featured-nature.jpg" alt="Stunning landscape" id="hero-image">
       <div class="hero-text">
         <h2>Capture Moments, Create Memories</h2>
         <p>Discover the world through my lens</p>
@@ -34,10 +34,10 @@
     <section class="container featured-work">
       <h2>Featured Work</h2>
       <div class="gallery-grid">
-        <img src="images/sample-animal.jpg" alt="Portrait" id="featured-portrait">
-        <img src="images/sample-nature.jpg" alt="Landscape" id="featured-landscape">
-        <img src="images/sample-animal.jpg" alt="Wildlife" id="featured-wildlife">
-        <img src="images/sample-city.jpg" alt="Street" id="featured-street">
+        <img src="images/website/featured-animal.jpg" alt="Portrait" id="featured-portrait">
+        <img src="images/website/featured-nature.jpg" alt="Landscape" id="featured-landscape">
+        <img src="images/website/featured-animal.jpg" alt="Wildlife" id="featured-wildlife">
+        <img src="images/website/featured-city.jpg" alt="Street" id="featured-street">
       </div>
     </section>
 
@@ -57,7 +57,7 @@
     document.addEventListener('DOMContentLoaded', () => {
       // Set hero image
       const heroImg = document.getElementById('hero-image');
-      if (heroImg) heroImg.src = siteConfig.homepageImages.hero;
+      if (heroImg) heroImg.src = siteConfig.s3.getImageUrl(siteConfig.homepageImages.hero);
       
       // Set featured images
       const featuredImages = [
@@ -69,7 +69,7 @@
       
       featuredImages.forEach(item => {
         const img = document.getElementById(item.id);
-        if (img) img.src = siteConfig.homepageImages.featured[item.key];
+        if (img) img.src = siteConfig.s3.getImageUrl(siteConfig.homepageImages.featured[item.key]);
       });
       
       // Apply color scheme from config

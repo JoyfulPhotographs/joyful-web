@@ -10,20 +10,20 @@
 const siteConfig = {
   // Homepage images
   homepageImages: {
-    hero: 'images/sample-nature.jpg',
+    hero: 'images/website/featured-nature.jpg',
     featured: {
-      portrait: 'images/sample-animal.jpg',
-      landscape: 'images/sample-nature.jpg',
-      wildlife: 'images/sample-animal.jpg',
-      street: 'images/sample-city.jpg'
+      portrait: 'images/website/featured-animal.jpg',
+      landscape: 'images/website/featured-nature.jpg',
+      wildlife: 'images/website/featured-animal.jpg',
+      street: 'images/website/featured-city.jpg'
     }
   },
   
   // General site images (non-gallery)
   siteImages: {
     logo: 'images/logo.jpg',
-    aboutHero: 'images/sample-architecture.jpg',
-    contactBanner: 'images/sample-city.jpg'
+    aboutHero: 'images/website/featured-architecture.jpg',
+    contactBanner: 'images/website/featured-city.jpg'
   },
   
   // Color scheme

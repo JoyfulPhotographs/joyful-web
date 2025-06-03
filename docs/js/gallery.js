@@ -72,7 +72,8 @@ document.addEventListener('DOMContentLoaded', () => {
             galleryItem.classList.add('gallery-item');
             
             const img = document.createElement('img');
-            img.src = item.src;
+            // Use the S3 helper function to build the full URL from the relative path
+            img.src = siteConfig.s3.getImageUrl(item.src);
             img.alt = item.alt;
             img.loading = 'lazy'; // Lazy loading for better performance
             
