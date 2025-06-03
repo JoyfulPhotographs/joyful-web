@@ -9,6 +9,11 @@ const siteConfig = {
     prefix: 'website-images',
     // Helper function to build full S3 URLs
     getImageUrl: function(imagePath) {
+      // Check if we're running on localhost - use local images for development
+      if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+        return `/images/${imagePath}`;
+      }
+      // Otherwise use S3 for production
       return `${this.bucketUrl}/${this.prefix}/${imagePath}`;
     }
   },
