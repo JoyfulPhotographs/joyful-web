@@ -1,0 +1,17 @@
+# S3 Image URLs - Generated 06/03/2025 13:14:36
+# Base URL: https://photos-joyfulphotographs-com.s3.amazonaws.com/website-images/
+# Format in config.js: s3.getImageUrl('filename.jpg')
+
+https://photos-joyfulphotographs-com.s3.amazonaws.com/website-images/gallery/sample-animal.jpg - gallery/sample-animal.jpg
+https://photos-joyfulphotographs-com.s3.amazonaws.com/website-images/gallery/sample-architecture.jpg - gallery/sample-architecture.jpg
+https://photos-joyfulphotographs-com.s3.amazonaws.com/website-images/gallery/sample-city.jpg - gallery/sample-city.jpg
+https://photos-joyfulphotographs-com.s3.amazonaws.com/website-images/gallery/sample-food.jpg - gallery/sample-food.jpg
+https://photos-joyfulphotographs-com.s3.amazonaws.com/website-images/gallery/sample-nature.jpg - gallery/sample-nature.jpg
+https://photos-joyfulphotographs-com.s3.amazonaws.com/website-images/website/featured-animal.jpg - website/featured-animal.jpg
+https://photos-joyfulphotographs-com.s3.amazonaws.com/website-images/website/featured-architecture.jpg - website/featured-architecture.jpg
+https://photos-joyfulphotographs-com.s3.amazonaws.com/website-images/website/featured-city.jpg - website/featured-city.jpg
+https://photos-joyfulphotographs-com.s3.amazonaws.com/website-images/website/featured-food.jpg - website/featured-food.jpg
+https://photos-joyfulphotographs-com.s3.amazonaws.com/website-images/website/featured-landscape.jpg - website/featured-landscape.jpg
+https://photos-joyfulphotographs-com.s3.amazonaws.com/website-images/website/featured-nature.jpg - website/featured-nature.jpg
+https://photos-joyfulphotographs-com.s3.amazonaws.com/website-images/website/featured-portrait.jpg - website/featured-portrait.jpg
+https://photos-joyfulphotographs-com.s3.amazonaws.com/website-images/website/hero-main.jpg - website/hero-main.jpg
