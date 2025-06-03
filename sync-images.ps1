@@ -1,6 +1,10 @@
 # PowerShell script to upload local images to Amazon S3
 # Prerequisites: AWS CLI installed and configured
 
+param (
+    [switch]$NonInteractive
+)
+
 # Configuration
 $LOCAL_IMAGE_PATH = "$PSScriptRoot\docs\images"
 $S3_BUCKET = "photos-joyfulphotographs-com"  # S3 bucket name for images
@@ -17,8 +21,17 @@ if (-not (Test-Path -Path $LOCAL_IMAGE_PATH)) {
 # Main purpose: Upload local images to S3
 Write-Host "Preparing to upload local images to S3"
 
-# Ask for confirmation
-$uploadChoice = Read-Host "Do you want to upload local images to S3? (y/n)"
+# Handle interactive vs non-interactive mode
+$uploadChoice = "n"
+if ($NonInteractive) {
+    # In non-interactive mode (e.g., from pre-commit hook), proceed automatically
+    Write-Host "Running in non-interactive mode, proceeding with upload"
+    $uploadChoice = "y"
+} else {
+    # Ask for confirmation in interactive mode
+    $uploadChoice = Read-Host "Do you want to upload local images to S3? (y/n)"
+}
+
 if ($uploadChoice -eq "y") {
     Write-Host "Uploading images to S3..."
     # No ACL flag since bucket has Object Ownership set to "Bucket owner enforced"
