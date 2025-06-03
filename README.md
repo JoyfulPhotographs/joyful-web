@@ -99,6 +99,35 @@ A professional photography portfolio website with responsive design, tabbed gall
 
 1. **Setup Amazon S3:**
    - Create an AWS account if you don't have one
+   - Create an S3 bucket for your images
+   - Configure bucket permissions for public read access
+   - Set up an AWS CLI profile with your credentials:
+     ```
+     aws configure --profile joyful-photos
+     ```
+
+2. **Image Sync Workflow:**
+   - Add images to your local `docs/images/` directory
+   - Use the sync script to upload them to S3:
+     ```
+     ./sync-images.ps1
+     ```
+   - The script will upload all local images to the S3 bucket and generate a URL list
+
+3. **Automatic Validation and Sync:**
+   - The Git pre-commit hook automatically:
+     1. Validates that gallery-data.json refers to existing local images
+     2. Syncs local images to S3
+     3. Validates that all images exist in S3
+   - To bypass this process for testing/development:
+     ```
+     git commit --no-verify -m "Your commit message"
+     ```
+
+4. **Local Development Mode:**
+   - When developing locally (localhost), the site automatically uses local images
+   - When deployed, it uses the S3 image URLs
+   - This allows for fast local iteration without S3 uploads
    - Create an S3 bucket with public read access
    - Configure CORS settings for your bucket
 
