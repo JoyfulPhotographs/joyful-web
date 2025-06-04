@@ -6,27 +6,27 @@
       "description": "Elegant movements and performances from the world of ballet",
       "images": [
         {
-          "src": "gallery/sample-nature.jpg",
+          "src": "gallery/ballet/sample-nature.jpg",
           "alt": "Ballet dancers in motion",
           "description": "Grace and precision in every movement."
         },
         {
-          "src": "gallery/sample-city2.jpg",
+          "src": "gallery/ballet/sample-city2.jpg",
           "alt": "Ballet performance on stage",
           "description": "Expressive performance under dramatic lighting."
         },
         {
-          "src": "gallery/sample-animal.jpg",
+          "src": "gallery/ballet/sample-animal.jpg",
           "alt": "Ballet choreography",
           "description": "Synchronized dancers telling a story through movement."
         },
         {
-          "src": "gallery/sample-food.jpg",
+          "src": "gallery/ballet/sample-food.jpg",
           "alt": "Behind the scenes at ballet",
           "description": "The dedication and preparation behind the art."
         },
         {
-          "src": "gallery/sample-architecture.jpg",
+          "src": "gallery/ballet/sample-architecture.jpg",
           "alt": "Ballet venue",
           "description": "The beautiful theater setting for ballet performances."
         }
@@ -38,27 +38,27 @@
       "description": "Capturing personalities and expressions",
       "images": [
         {
-          "src": "gallery/sample-animal.jpg",
+          "src": "gallery/portraits/sample-animal.jpg",
           "alt": "Professional portrait",
           "description": "Expressing character through thoughtful composition."
         },
         {
-          "src": "gallery/sample-nature.jpg",
+          "src": "gallery/portraits/sample-nature.jpg",
           "alt": "Environmental portrait",
           "description": "Capturing personality in a natural setting."
         },
         {
-          "src": "gallery/sample-city.jpg",
+          "src": "gallery/portraits/sample-city.jpg",
           "alt": "Urban portrait",
           "description": "Modern portraiture against a city backdrop."
         },
         {
-          "src": "gallery/sample-food.jpg",
+          "src": "gallery/portraits/sample-food.jpg",
           "alt": "Creative portrait",
           "description": "Artistic expression through portraiture."
         },
         {
-          "src": "gallery/sample-architecture.jpg",
+          "src": "gallery/portraits/sample-architecture.jpg",
           "alt": "Studio portrait",
           "description": "Professional lighting enhances facial features."
         }
@@ -70,27 +70,27 @@
       "description": "Celebrating love and commitment",
       "images": [
         {
-          "src": "gallery/sample-city.jpg",
+          "src": "gallery/weddings/sample-city.jpg",
           "alt": "Wedding celebration",
           "description": "Capturing joy on a special day."
         },
         {
-          "src": "gallery/sample-nature.jpg",
+          "src": "gallery/weddings/sample-nature.jpg",
           "alt": "Outdoor wedding ceremony",
           "description": "A beautiful union set in nature."
         },
         {
-          "src": "gallery/sample-food.jpg",
+          "src": "gallery/weddings/sample-food.jpg",
           "alt": "Wedding reception details",
           "description": "Elegant styling and personal touches."
         },
         {
-          "src": "gallery/sample-architecture.jpg",
+          "src": "gallery/weddings/sample-architecture.jpg",
           "alt": "Wedding venue",
           "description": "Historic venue with magnificent architecture."
         },
         {
-          "src": "gallery/sample-animal.jpg",
+          "src": "gallery/weddings/sample-animal.jpg",
           "alt": "Wedding couple portrait",
           "description": "Candid moments of love and happiness."
         }
@@ -102,27 +102,27 @@
       "description": "Special moments from concerts, parties, and gatherings",
       "images": [
         {
-          "src": "gallery/sample-food.jpg",
+          "src": "gallery/events/sample-food.jpg",
           "alt": "Event photography",
           "description": "Documenting memorable occasions."
         },
         {
-          "src": "gallery/sample-city.jpg",
+          "src": "gallery/events/sample-city.jpg",
           "alt": "Concert photography",
           "description": "Capturing the energy of live music."
         },
         {
-          "src": "gallery/sample-architecture.jpg",
+          "src": "gallery/events/sample-architecture.jpg",
           "alt": "Corporate event",
           "description": "Professional coverage of business gatherings."
         },
         {
-          "src": "gallery/sample-animal.jpg",
+          "src": "gallery/events/sample-animal.jpg",
           "alt": "Party moments",
           "description": "Celebration and joy in candid shots."
         },
         {
-          "src": "gallery/sample-nature.jpg",
+          "src": "gallery/events/sample-nature.jpg",
           "alt": "Outdoor festival",
           "description": "Community events in beautiful settings."
         }
@@ -134,27 +134,27 @@
       "description": "The beauty and character of Scotland's capital",
       "images": [
         {
-          "src": "gallery/sample-architecture.jpg",
+          "src": "gallery/edinburgh/sample-architecture.jpg",
           "alt": "Edinburgh architecture",
           "description": "Historic charm meets modern city life."
         },
         {
-          "src": "gallery/sample-city.jpg",
+          "src": "gallery/edinburgh/sample-city.jpg",
           "alt": "Edinburgh cityscape",
           "description": "The iconic skyline of Scotland's capital."
         },
         {
-          "src": "gallery/sample-nature.jpg",
+          "src": "gallery/edinburgh/sample-nature.jpg",
           "alt": "Edinburgh gardens",
           "description": "Green spaces within the urban environment."
         },
         {
-          "src": "gallery/sample-food.jpg",
+          "src": "gallery/edinburgh/sample-food.jpg",
           "alt": "Edinburgh festivals",
           "description": "Vibrant cultural events that define the city."
         },
         {
-          "src": "gallery/sample-animal.jpg",
+          "src": "gallery/edinburgh/sample-animal.jpg",
           "alt": "Edinburgh street scenes",
           "description": "Daily life in Edinburgh's historic streets."
         }
@@ -166,27 +166,27 @@
       "description": "Breathtaking natural scenery from across the globe",
       "images": [
         {
-          "src": "gallery/sample-nature.jpg",
+          "src": "gallery/landscapes/sample-nature.jpg",
           "alt": "A serene lake surrounded by mountains",
           "description": "Tranquil waters reflecting the morning sky."
         },
         {
-          "src": "gallery/sample-city.jpg",
+          "src": "gallery/landscapes/sample-city.jpg",
           "alt": "Mountain range at sunset",
           "description": "Golden hour light painting the peaks."
         },
         {
-          "src": "gallery/sample-architecture.jpg",
+          "src": "gallery/landscapes/sample-architecture.jpg",
           "alt": "Rocky coastline",
           "description": "Waves crashing against dramatic cliffs."
         },
         {
-          "src": "gallery/sample-animal.jpg",
+          "src": "gallery/landscapes/sample-animal.jpg",
           "alt": "Forest trail",
           "description": "Sunlight filtering through ancient trees."
         },
         {
-          "src": "gallery/sample-food.jpg",
+          "src": "gallery/landscapes/sample-food.jpg",
           "alt": "Desert landscape",
           "description": "Minimalist beauty of arid terrain."
         }
@@ -198,27 +198,27 @@
       "description": "A collection of diverse photography works",
       "images": [
         {
-          "src": "gallery/sample-city.jpg",
+          "src": "gallery/general/sample-city.jpg",
           "alt": "General photography sample",
           "description": "A showcase of varied photographic styles."
         },
         {
-          "src": "gallery/sample-nature.jpg",
+          "src": "gallery/general/sample-nature.jpg",
           "alt": "Fine art photography",
           "description": "Photography as artistic expression."
         },
         {
-          "src": "gallery/sample-animal.jpg",
+          "src": "gallery/general/sample-animal.jpg",
           "alt": "Black and white study",
           "description": "Exploring contrast and form."
         },
         {
-          "src": "gallery/sample-food.jpg",
+          "src": "gallery/general/sample-food.jpg",
           "alt": "Still life arrangement",
           "description": "Composition and lighting techniques."
         },
         {
-          "src": "gallery/sample-architecture.jpg",
+          "src": "gallery/general/sample-architecture.jpg",
           "alt": "Abstract photography",
           "description": "Finding patterns and textures in everyday objects."
         }
