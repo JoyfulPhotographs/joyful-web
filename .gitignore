@@ -1,2 +1,10 @@
 # Log files from Python scripts
 debug_*.log
+
+# Ignore all actual images and files under docs/images
+/docs/images/*
+
+# But keep the folder structure
+!/docs/images/
+!/docs/images/website/
+!/docs/images/gallery/
