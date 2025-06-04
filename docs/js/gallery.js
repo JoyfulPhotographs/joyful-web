@@ -77,12 +77,16 @@ document.addEventListener('DOMContentLoaded', () => {
             img.alt = item.alt;
             img.loading = 'lazy'; // Lazy loading for better performance
             
-            const description = document.createElement('p');
-            description.classList.add('gallery-item-description');
-            description.textContent = item.description;
-            
             galleryItem.appendChild(img);
-            galleryItem.appendChild(description);
+            
+            // Only add description if it exists
+            if (item.description) {
+              const description = document.createElement('p');
+              description.classList.add('gallery-item-description');
+              description.textContent = item.description;
+              galleryItem.appendChild(description);
+            }
+            
             galleryContainer.appendChild(galleryItem);
           });
           

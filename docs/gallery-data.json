@@ -6,125 +6,60 @@
       "description": "Elegant movements and performances from the world of ballet",
       "images": [
         {
-          "src": "gallery/ballet/sample-nature.jpg",
-          "alt": "Ballet dancers in motion",
-          "description": "Grace and precision in every movement."
+          "src": "gallery/ballet/850_0761.jpg",
+          "alt": "850 0761 - Ballet photography"
         },
         {
-          "src": "gallery/ballet/sample-city2.jpg",
-          "alt": "Ballet performance on stage",
-          "description": "Expressive performance under dramatic lighting."
+          "src": "gallery/ballet/Ada GP.jpg",
+          "alt": "Ada Gp - Ballet photography"
         },
         {
-          "src": "gallery/ballet/sample-animal.jpg",
-          "alt": "Ballet choreography",
-          "description": "Synchronized dancers telling a story through movement."
+          "src": "gallery/ballet/Annabelle_DMI.jpg",
+          "alt": "Annabelle Dmi - Ballet photography"
         },
         {
-          "src": "gallery/ballet/sample-food.jpg",
-          "alt": "Behind the scenes at ballet",
-          "description": "The dedication and preparation behind the art."
+          "src": "gallery/ballet/coco_class.jpg",
+          "alt": "Coco Class - Ballet photography"
         },
         {
-          "src": "gallery/ballet/sample-architecture.jpg",
-          "alt": "Ballet venue",
-          "description": "The beautiful theater setting for ballet performances."
-        }
-      ]
-    },
-    {
-      "id": "portraits",
-      "name": "Portraits",
-      "description": "Capturing personalities and expressions",
-      "images": [
-        {
-          "src": "gallery/portraits/sample-animal.jpg",
-          "alt": "Professional portrait",
-          "description": "Expressing character through thoughtful composition."
+          "src": "gallery/ballet/Coco_studio.jpg",
+          "alt": "Coco Studio - Ballet photography"
         },
         {
-          "src": "gallery/portraits/sample-nature.jpg",
-          "alt": "Environmental portrait",
-          "description": "Capturing personality in a natural setting."
+          "src": "gallery/ballet/Denzil_DMI.jpg",
+          "alt": "Denzil Dmi - Ballet photography"
         },
         {
-          "src": "gallery/portraits/sample-city.jpg",
-          "alt": "Urban portrait",
-          "description": "Modern portraiture against a city backdrop."
+          "src": "gallery/ballet/Ema.jpg",
+          "alt": "Ema - Ballet photography"
         },
         {
-          "src": "gallery/portraits/sample-food.jpg",
-          "alt": "Creative portrait",
-          "description": "Artistic expression through portraiture."
+          "src": "gallery/ballet/haven.jpg",
+          "alt": "Haven - Ballet photography"
         },
         {
-          "src": "gallery/portraits/sample-architecture.jpg",
-          "alt": "Studio portrait",
-          "description": "Professional lighting enhances facial features."
-        }
-      ]
-    },
-    {
-      "id": "weddings",
-      "name": "Weddings",
-      "description": "Celebrating love and commitment",
-      "images": [
-        {
-          "src": "gallery/weddings/sample-city.jpg",
-          "alt": "Wedding celebration",
-          "description": "Capturing joy on a special day."
+          "src": "gallery/ballet/Haven_castle5th.jpg",
+          "alt": "Haven Castle5Th - Ballet photography"
         },
         {
-          "src": "gallery/weddings/sample-nature.jpg",
-          "alt": "Outdoor wedding ceremony",
-          "description": "A beautiful union set in nature."
+          "src": "gallery/ballet/Ruby GP.jpg",
+          "alt": "Ruby Gp - Ballet photography"
         },
         {
-          "src": "gallery/weddings/sample-food.jpg",
-          "alt": "Wedding reception details",
-          "description": "Elegant styling and personal touches."
+          "src": "gallery/ballet/Ruby_chch.jpg",
+          "alt": "Ruby Chch - Ballet photography"
         },
         {
-          "src": "gallery/weddings/sample-architecture.jpg",
-          "alt": "Wedding venue",
-          "description": "Historic venue with magnificent architecture."
+          "src": "gallery/ballet/Susannah_CherryBlossoms.jpg",
+          "alt": "Susannah Cherryblossoms - Ballet photography"
         },
         {
-          "src": "gallery/weddings/sample-animal.jpg",
-          "alt": "Wedding couple portrait",
-          "description": "Candid moments of love and happiness."
-        }
-      ]
-    },
-    {
-      "id": "events",
-      "name": "Events",
-      "description": "Special moments from concerts, parties, and gatherings",
-      "images": [
-        {
-          "src": "gallery/events/sample-food.jpg",
-          "alt": "Event photography",
-          "description": "Documenting memorable occasions."
+          "src": "gallery/ballet/Susannah_oxford.jpg",
+          "alt": "Susannah Oxford - Ballet photography"
         },
         {
-          "src": "gallery/events/sample-city.jpg",
-          "alt": "Concert photography",
-          "description": "Capturing the energy of live music."
-        },
-        {
-          "src": "gallery/events/sample-architecture.jpg",
-          "alt": "Corporate event",
-          "description": "Professional coverage of business gatherings."
-        },
-        {
-          "src": "gallery/events/sample-animal.jpg",
-          "alt": "Party moments",
-          "description": "Celebration and joy in candid shots."
-        },
-        {
-          "src": "gallery/events/sample-nature.jpg",
-          "alt": "Outdoor festival",
-          "description": "Community events in beautiful settings."
+          "src": "gallery/ballet/Tree_Auckland.jpg",
+          "alt": "Tree Auckland - Ballet photography"
         }
       ]
     },
@@ -134,93 +69,175 @@
       "description": "The beauty and character of Scotland's capital",
       "images": [
         {
-          "src": "gallery/edinburgh/sample-architecture.jpg",
-          "alt": "Edinburgh architecture",
-          "description": "Historic charm meets modern city life."
+          "src": "gallery/edinburgh/9.png",
+          "alt": "9 - Edinburgh photography"
         },
         {
-          "src": "gallery/edinburgh/sample-city.jpg",
-          "alt": "Edinburgh cityscape",
-          "description": "The iconic skyline of Scotland's capital."
+          "src": "gallery/edinburgh/Glenfinlas.jpg",
+          "alt": "Glenfinlas - Edinburgh photography"
         },
         {
-          "src": "gallery/edinburgh/sample-nature.jpg",
-          "alt": "Edinburgh gardens",
-          "description": "Green spaces within the urban environment."
+          "src": "gallery/edinburgh/i-zbqvzF7-S.jpg",
+          "alt": "I Zbqvzf7 S - Edinburgh photography"
         },
         {
-          "src": "gallery/edinburgh/sample-food.jpg",
-          "alt": "Edinburgh festivals",
-          "description": "Vibrant cultural events that define the city."
+          "src": "gallery/edinburgh/Mound.jpg",
+          "alt": "Mound - Edinburgh photography"
         },
         {
-          "src": "gallery/edinburgh/sample-animal.jpg",
-          "alt": "Edinburgh street scenes",
-          "description": "Daily life in Edinburgh's historic streets."
+          "src": "gallery/edinburgh/Squirrel.jpg",
+          "alt": "Squirrel - Edinburgh photography"
+        },
+        {
+          "src": "gallery/edinburgh/Vennels.jpg",
+          "alt": "Vennels - Edinburgh photography"
         }
       ]
     },
     {
-      "id": "landscapes",
-      "name": "Landscapes",
-      "description": "Breathtaking natural scenery from across the globe",
+      "id": "events",
+      "name": "Events",
+      "description": "Special moments from concerts, parties, and gatherings",
+      "images": []
+    },
+    {
+      "id": "landscape",
+      "name": "Landscape",
+      "description": "Landscape photography collection",
       "images": [
         {
-          "src": "gallery/landscapes/sample-nature.jpg",
-          "alt": "A serene lake surrounded by mountains",
-          "description": "Tranquil waters reflecting the morning sky."
+          "src": "gallery/landscape/Austria.jpg",
+          "alt": "Austria - Landscape photography"
         },
         {
-          "src": "gallery/landscapes/sample-city.jpg",
-          "alt": "Mountain range at sunset",
-          "description": "Golden hour light painting the peaks."
+          "src": "gallery/landscape/autumn road.jpg",
+          "alt": "Autumn Road - Landscape photography"
         },
         {
-          "src": "gallery/landscapes/sample-architecture.jpg",
-          "alt": "Rocky coastline",
-          "description": "Waves crashing against dramatic cliffs."
+          "src": "gallery/landscape/autumn.jpg",
+          "alt": "Autumn - Landscape photography"
         },
         {
-          "src": "gallery/landscapes/sample-animal.jpg",
-          "alt": "Forest trail",
-          "description": "Sunlight filtering through ancient trees."
+          "src": "gallery/landscape/boats.jpg",
+          "alt": "Boats - Landscape photography"
         },
         {
-          "src": "gallery/landscapes/sample-food.jpg",
-          "alt": "Desert landscape",
-          "description": "Minimalist beauty of arid terrain."
+          "src": "gallery/landscape/from train.jpg",
+          "alt": "From Train - Landscape photography"
+        },
+        {
+          "src": "gallery/landscape/IMG_5776.jpg",
+          "alt": "Img 5776 - Landscape photography"
+        },
+        {
+          "src": "gallery/landscape/IMG_5804.jpg",
+          "alt": "Img 5804 - Landscape photography"
+        },
+        {
+          "src": "gallery/landscape/IMG_5809.jpg",
+          "alt": "Img 5809 - Landscape photography"
+        },
+        {
+          "src": "gallery/landscape/John Knox Pulpit Walk 1.jpg",
+          "alt": "John Knox Pulpit Walk 1 - Landscape photography"
+        },
+        {
+          "src": "gallery/landscape/Otago_beach.jpg",
+          "alt": "Otago Beach - Landscape photography"
+        },
+        {
+          "src": "gallery/landscape/Wellington_impressionist.jpg",
+          "alt": "Wellington Impressionist - Landscape photography"
         }
       ]
     },
     {
-      "id": "general",
-      "name": "General",
-      "description": "A collection of diverse photography works",
+      "id": "portrait",
+      "name": "Portrait",
+      "description": "Portrait photography collection",
       "images": [
         {
-          "src": "gallery/general/sample-city.jpg",
-          "alt": "General photography sample",
-          "description": "A showcase of varied photographic styles."
+          "src": "gallery/portrait/Abigail_1.jpg",
+          "alt": "Abigail 1 - Portrait photography"
         },
         {
-          "src": "gallery/general/sample-nature.jpg",
-          "alt": "Fine art photography",
-          "description": "Photography as artistic expression."
+          "src": "gallery/portrait/Angus.jpg",
+          "alt": "Angus - Portrait photography"
         },
         {
-          "src": "gallery/general/sample-animal.jpg",
-          "alt": "Black and white study",
-          "description": "Exploring contrast and form."
+          "src": "gallery/portrait/Baby.jpg",
+          "alt": "Baby - Portrait photography"
         },
         {
-          "src": "gallery/general/sample-food.jpg",
-          "alt": "Still life arrangement",
-          "description": "Composition and lighting techniques."
+          "src": "gallery/portrait/Hanne.jpg",
+          "alt": "Hanne - Portrait photography"
         },
         {
-          "src": "gallery/general/sample-architecture.jpg",
-          "alt": "Abstract photography",
-          "description": "Finding patterns and textures in everyday objects."
+          "src": "gallery/portrait/lorna.jpg",
+          "alt": "Lorna - Portrait photography"
+        },
+        {
+          "src": "gallery/portrait/McCarthys.jpg",
+          "alt": "Mccarthys - Portrait photography"
+        },
+        {
+          "src": "gallery/portrait/nina bandw.jpg",
+          "alt": "Nina Bandw - Portrait photography"
+        },
+        {
+          "src": "gallery/portrait/VivaTech_1.jpg",
+          "alt": "Vivatech 1 - Portrait photography"
+        },
+        {
+          "src": "gallery/portrait/VivaTech_manwmoustache.jpg",
+          "alt": "Vivatech Manwmoustache - Portrait photography"
+        }
+      ]
+    },
+    {
+      "id": "weddings",
+      "name": "Weddings",
+      "description": "Celebrating love and commitment",
+      "images": [
+        {
+          "src": "gallery/weddings/GusAnnie.jpg",
+          "alt": "Gusannie - Weddings photography"
+        },
+        {
+          "src": "gallery/weddings/JoshBaby.jpg",
+          "alt": "Joshbaby - Weddings photography"
+        },
+        {
+          "src": "gallery/weddings/KateDress.jpg",
+          "alt": "Katedress - Weddings photography"
+        },
+        {
+          "src": "gallery/weddings/KateLOVE.jpg",
+          "alt": "Katelove - Weddings photography"
+        },
+        {
+          "src": "gallery/weddings/KateParents.jpg",
+          "alt": "Kateparents - Weddings photography"
+        },
+        {
+          "src": "gallery/weddings/KatePeteArch.jpg",
+          "alt": "Katepetearch - Weddings photography"
+        },
+        {
+          "src": "gallery/weddings/LiaDress.jpg",
+          "alt": "Liadress - Weddings photography"
+        },
+        {
+          "src": "gallery/weddings/LiaMum.jpg",
+          "alt": "Liamum - Weddings photography"
+        },
+        {
+          "src": "gallery/weddings/NicolaCar.jpg",
+          "alt": "Nicolacar - Weddings photography"
+        },
+        {
+          "src": "gallery/weddings/NicolaVows.jpg",
+          "alt": "Nicolavows - Weddings photography"
         }
       ]
     }
